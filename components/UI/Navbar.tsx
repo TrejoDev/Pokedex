@@ -11,12 +11,12 @@ export const NavbarUI = () => {
       />
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="http://localhost:3000/">
+          <Link color="foreground" href="/">
             Pokemòn
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link href="http://localhost:3000/favorites" aria-current="page">
+          <Link href="/favorites" aria-current="page">
             Favoritos
           </Link>
         </NavbarItem>
